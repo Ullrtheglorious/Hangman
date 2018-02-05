@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("images/viking.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.btn-transparent a{
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    padding: 5px 20px;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+
+
+  
