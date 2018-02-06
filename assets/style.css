@@ -18,6 +18,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    color: white;
 }
 .btn-transparent a {
     background: transparent;
@@ -32,7 +33,7 @@ body, html {
     left: 20%;
 }
 p {
-    color: aliceblue;
+    color: rgb(252, 252, 252);
 }
 h2 {
     color: white;
@@ -49,6 +50,9 @@ h2 {
     font-family: 'Amiri', serif;
     text-decoration: none;
 
+}
+.sword {
+    width: 100%;
 }
 
 

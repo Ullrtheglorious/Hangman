@@ -46,7 +46,7 @@ window.onload = function () {
           }
 //if your guess removes the last _ (win condition)
           if (this.correct.innerHTML.indexOf('_') < 0) {
-            alert('Skol! You win!');
+            document.getElementById('winner').innerHTML = "Skol! You win!";
             this.complete = true;
           }
         },
@@ -58,7 +58,7 @@ window.onload = function () {
           this.remaining.innerHTML = this.left;
 //if your wrong guess uses last life "left" (lose condition)
           if (this.left < 1) {
-            alert('You died! The word to guess was '+ this.word);
+            document.getElementById('loser').innerHTML = "You Died";
             this.complete = true;
           }
         }
