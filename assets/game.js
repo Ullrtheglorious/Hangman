@@ -68,6 +68,5 @@ window.onload = function () {
         var letter = String.fromCharCode(event.keyCode).toLowerCase();
         game.guess(letter);
       };
-
   };
     

@@ -19,7 +19,7 @@ body, html {
     background-size: cover;
     position: relative;
 }
-.btn-transparent a{
+.btn-transparent a {
     background: transparent;
     color: #ffffffc2;
     border: .5px solid rgba(255, 255, 255, 0.733);
@@ -37,9 +37,19 @@ p {
 h2 {
     color: white;
 }
- #right {
+#right {
         letter-spacing: 3px;
-      }
+}
+.restart a {
+    background: transparent;
+    color: #ffffffc2;
+    border: .5px solid rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+
+}
 
 
   
