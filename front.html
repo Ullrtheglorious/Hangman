@@ -11,16 +11,27 @@
 
 <body>
     <div class="bg2 overlay">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div>
-                <img src="assets/images/ulf.png" class="sword" alt="Ulf">
-                <h2>Guess the Viking themed word:</h2>
+            <img src="assets/images/ulf.png" class="sword" alt="Ulf">
+        </div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-xs-12" style=padding-right:0px;padding-left:0px;>
+                <h2>Guess the Viking word</h2>
+            </div>   
+        </div>   
+        <div class="row">
+            <div class="wrap col-sm-8 col-sm-offset-2 col-xs-12">
                 <p id="right"></p>
                 <p>Only: <span id="remain">12</span> Arrows Remain</p>
                 <p>Arrows Shot: <span id="wrong"></span></p>
                 <span id="winner"></span>
                 <span id="loser"></span>
+            </div>
+        </div>
+        </div>
+
+                
                 <btn class="btn-transparent btn-lg" name="restart" type="button"><a href="" onclick="game.start()">Try Again</btn>
             </div>
         </div>

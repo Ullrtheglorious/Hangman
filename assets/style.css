@@ -35,11 +35,13 @@ body, html {
 p {
     color: rgb(252, 252, 252);
 }
-h2 {
+h2, .wrap {
     color: white;
+    border: 1px solid white;
+    text-align: center;
 }
 #right {
-        letter-spacing: 3px;
+    letter-spacing: 3px;
 }
 .restart a {
     background: transparent;
