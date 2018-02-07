@@ -1,4 +1,4 @@
-window.onload = function () {
+
       var game = {
         words: ["beserk",
           "sword",
@@ -12,6 +12,7 @@ window.onload = function () {
           "odin",
           "valhalla",
           "valkyrie",
+          "yggdrasil"
         ],
         guessed: [],
         left: 12,
@@ -68,5 +69,5 @@ window.onload = function () {
         var letter = String.fromCharCode(event.keyCode).toLowerCase();
         game.guess(letter);
       };
-  };
+
     
