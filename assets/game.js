@@ -59,7 +59,7 @@
             this.won.innerHTML = this.wins;
             document.getElementById('winner').innerHTML = "Skol! You win!";
             this.complete = true;
-            
+            this.left = 12;
           }
         },
 //if your guess is wrong
