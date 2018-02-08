@@ -16,6 +16,9 @@
         ],
         guessed: [],
         left: 12,
+        wins: [],
+        losses: [],
+        
         start: function() {
           this.complete = false;
           this.word = this.words[Math.floor(Math.random() * this.words.length)];
@@ -23,8 +26,13 @@
           this.incorrect = document.getElementById('wrong');
           this.remaining = document.getElementById('remain');
           this.correct.innerHTML = '_'.repeat(this.word.length);
-
-
+          this.won = document.getElementById('wins');
+          this.loss = document.getElementById('losses');
+          this.guessed = [];
+          document.getElementById('winner').innerHTML = "";
+          document.getElementById('loser').innerHTML = "";
+          document.getElementById('wrong').innerHTML = [];
+          document.getElementById('remain').innerHTML = 12;
         },
 //guessing a letter
         guess: function(letter) {
@@ -47,8 +55,11 @@
           }
 //if your guess removes the last _ (win condition)
           if (this.correct.innerHTML.indexOf('_') < 0) {
+            this.wins++;
+            this.won.innerHTML = this.wins;
             document.getElementById('winner').innerHTML = "Skol! You win!";
             this.complete = true;
+            
           }
         },
 //if your guess is wrong
@@ -59,8 +70,12 @@
           this.remaining.innerHTML = this.left;
 //if your wrong guess uses last life "left" (lose condition)
           if (this.left < 1) {
+            this.losses++;
+            this.loss.innerHTML = this.losses;
+            this.left = 12;
             document.getElementById('loser').innerHTML = "You Died";
             this.complete = true;
+            
           }
         }
       };
