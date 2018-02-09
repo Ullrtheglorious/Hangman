@@ -37,6 +37,8 @@ p {
 }
 h1 {
     text-align: center;
+    font-family: 'MedievalSharp', cursive;
+    padding-top: 10px;
 }
 
 h2, .wrap {
@@ -54,6 +56,7 @@ h2, .wrap {
     letter-spacing: 3px;
     padding-bottom: 20px;
     margin-left: 10px;
+    font-family: 'MedievalSharp', cursive;
 }
 .restart a {
     background: transparent;
@@ -76,7 +79,7 @@ h2, .wrap {
 a {
     color:white;
     text-decoration: none;
-    font-family: 'Amiri', serif;
+    font-family: 'MedievalSharp', cursive;
 }
 a:hover 
 {
@@ -111,12 +114,16 @@ a:hover
 }
 #losses {
     font-weight: bold;
+    margin-top: -10px;
 }
 #remain {
     font-weight: bold;
     
 }
 #wrong {
+    font-weight: bold;
+}
+#display {
     font-weight: bold;
 }
 p {

@@ -64,6 +64,7 @@
             this.wins++;
             this.won.innerHTML = this.wins;
             document.getElementById('winner').innerHTML = "Skol! You win!";
+            document.getElementById('display').innerHTML = this.word;
             this.complete = true;
             this.left = 12;
           }
@@ -80,6 +81,7 @@
             this.loss.innerHTML = this.losses;
             this.left = 12;
             document.getElementById('loser').innerHTML = "You Died";
+            document.getElementById('display').innerHTML = this.word;
             this.complete = true;
             
           }
