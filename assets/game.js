@@ -2,7 +2,7 @@
       var game = {
         words: ["beserk",
           "sword",
-          "sheild",
+          "shield",
           "raid",
           "longboat",
           "ragnarok",
