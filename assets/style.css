@@ -38,7 +38,8 @@ p {
 h1 {
     text-align: center;
     font-family: 'MedievalSharp', cursive;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 4em;
 }
 
 h2, .wrap {
